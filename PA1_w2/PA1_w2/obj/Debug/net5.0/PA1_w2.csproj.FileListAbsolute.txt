@@ -1,0 +1,16 @@
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\bin\Debug\net5.0\PA1_w2.exe
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\bin\Debug\net5.0\PA1_w2.deps.json
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\bin\Debug\net5.0\PA1_w2.runtimeconfig.json
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\bin\Debug\net5.0\PA1_w2.runtimeconfig.dev.json
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\bin\Debug\net5.0\PA1_w2.dll
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\bin\Debug\net5.0\ref\PA1_w2.dll
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\bin\Debug\net5.0\PA1_w2.pdb
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\obj\Debug\net5.0\PA1_w2.csproj.AssemblyReference.cache
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\obj\Debug\net5.0\PA1_w2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\obj\Debug\net5.0\PA1_w2.AssemblyInfoInputs.cache
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\obj\Debug\net5.0\PA1_w2.AssemblyInfo.cs
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\obj\Debug\net5.0\PA1_w2.csproj.CoreCompileInputs.cache
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\obj\Debug\net5.0\PA1_w2.dll
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\obj\Debug\net5.0\ref\PA1_w2.dll
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\obj\Debug\net5.0\PA1_w2.pdb
+D:\Documents\UBC\CPEN 223\Code\PA1_w2\PA1_w2\obj\Debug\net5.0\PA1_w2.genruntimeconfig.cache
