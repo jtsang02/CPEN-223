@@ -30,17 +30,7 @@ namespace Activity
             }
 
             return tempString.ToString();
-                //Console.WriteLine(str[i]);
-            
-            //to implement
-
-            // create an empty StringBuilder
-            // loop to check every elements of str one by one
-            //if uppercase, convert to lowercase and append
-            //else if lowercase, convert to uppercase and append
-            //else keep as is and append
-            //convert to string and return
-
+   
         }
     }
 }
