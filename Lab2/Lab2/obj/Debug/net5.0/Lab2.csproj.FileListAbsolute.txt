@@ -1,0 +1,16 @@
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\bin\Debug\net5.0\Lab2.exe
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\bin\Debug\net5.0\Lab2.deps.json
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\bin\Debug\net5.0\Lab2.runtimeconfig.json
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\bin\Debug\net5.0\Lab2.runtimeconfig.dev.json
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\bin\Debug\net5.0\Lab2.dll
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\bin\Debug\net5.0\ref\Lab2.dll
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\bin\Debug\net5.0\Lab2.pdb
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\obj\Debug\net5.0\Lab2.csproj.AssemblyReference.cache
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\obj\Debug\net5.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\obj\Debug\net5.0\Lab2.AssemblyInfoInputs.cache
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\obj\Debug\net5.0\Lab2.AssemblyInfo.cs
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\obj\Debug\net5.0\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\obj\Debug\net5.0\Lab2.dll
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\obj\Debug\net5.0\ref\Lab2.dll
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\obj\Debug\net5.0\Lab2.pdb
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab2\Lab2\obj\Debug\net5.0\Lab2.genruntimeconfig.cache
