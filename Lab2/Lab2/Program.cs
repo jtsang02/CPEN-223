@@ -6,65 +6,55 @@
 using System;
 using System.Text;
 
-//Do not change the skeleton. You will only modify the body of the methods.
-namespace Lab2
-{
-    public class Program
-    {
-        static void Main()
-        {
-            string str1 = "clint eastwood";
-            string str2 = "old east action";
+namespace Lab2 {
+    public class Program {
+        static void Main() {
+
+            // anagram test
+            string str1 = "clinteastwood";
+            string str2 = "oldwestaction";
+
             if (AreAnagrams(str1, str2))
-                Console.WriteLine(" they are anagrams");
+                Console.WriteLine("they are anagrams");
             else
                 Console.WriteLine("not anagrams");
+
+            // palindrome test
+            if (IsPalindrome("racecar"))
+                Console.WriteLine("string is a palindrome");
+            else
+                Console.WriteLine("string is not a palindrome");
+
+            // palindromicsub test
+            if (HasPalindromicSubstring("cpen"))
+                Console.WriteLine("string has non-trivial palindromic substring");
+            else
+                Console.WriteLine("string does not have non-trivial palindromic substring");
+
         }
 
-        /// <summary>
-        /// checks if str1 and str2 are anagrams
-        /// </summary>
-        /// <param name="str1">the first string</param>
-        /// <param name="str2">the second string</param>
-        /// <returns>ture if anagrams, false otherwise</returns>
         public static bool AreAnagrams(string str1, string str2) {
-            /*
-            char upperChars = 'A';
-            char lowerChars = 'a';
-            int[] alphabet = new int[53];
 
-            for (int i = 0; i <= 25; i++) {          // map uppercase to locations 0-25 in alphabet
-                alphabet[i] = upperChars;
-                upperChars++;
-            }
-            for (int j = 26; j <= 51; j++) {        // map lowercase to locations 26-51 in alphabet
-                alphabet[j] = lowerChars;
-                lowerChars++;
-            }
-            alphabet[52] = 32;                      // add space
-            */
-
-            // create 2 arrays for each string with ascii chars 
-            int[] str1Array = new int[str1.Length];
+            int[] str1Array = new int[str1.Length];                 // create 2 empty arrays for each string with ascii chars 
             int[] str2Array = new int[str2.Length];
 
-            int i = 0;
-            foreach(char c in str1) {
-                str1Array[i] = c;
-                i++;
-            }
+            if (str1Array.Length == str2Array.Length) {             // if array lengths are same continue
 
-            int j = 0;
-            foreach(char d in str2) {
-                str2Array[j] = d;
-                j++;
-            }
+                int i = 0;
+                foreach (char c in str1) {                          // fill str1 array with ascii values
+                    str1Array[i] = c;
+                    i++;
+                }
 
-            // sort each string
-            Array.Sort(str1Array);
-            Array.Sort(str2Array);
+                int j = 0;
+                foreach (char d in str2) {                          // fill str2 array with ascii values
+                    str2Array[j] = d;
+                    j++;
+                }
 
-            if (str1Array.Length == str2Array.Length) {
+                Array.Sort(str1Array);                              // sort each string
+                Array.Sort(str2Array);
+
                 for (int k = 0; k < str1Array.Length; k++) {
                     if (str1Array[k] != str2Array[k])
                         return false;
@@ -76,27 +66,31 @@ namespace Lab2
             return true;
         }
 
-        /// <summary>
-        /// checks if str is palindrome
-        /// </summary>
-        /// <param name="str">string to check</param>
-        /// <returns>true if pallindrome, false otherwise</returns>
-        
-        /*
-        public static bool IsPalindrome(string str)
-        {
-            //To Implement
+        public static bool IsPalindrome(string str) {
+
+            char[] strArray = str.ToCharArray();                    // convert string to char array
+            Array.Reverse(strArray);                                // reverse char array
+            string reverse = new string(strArray);                  // make new string with reversed char array
+
+            return String.Equals(str, reverse);                     // compare strings
         }
 
-        /// <summary>
-        /// checks if str contains a non-trivial palindrome substring
-        /// </summary>
-        /// <param name="str">string to check</param>
-        /// <returns>true if has palindromic substring, false otherwise</returns>
-        public static bool HasPalindromicSubstring(string str)
-        {
-            //To Implement
-        }
-        */
+        public static bool HasPalindromicSubstring(string str) {
+
+            bool[,] grid = new bool[str.Length, str.Length];        // create n x n boolean array
+
+            for (int i = 0; i < str.Length; i++)                    // fill diagonal with true because all single chars are palindromes
+                grid[i, i] = true;
+
+            for (int i = 1; i < str.Length; i++)                    // iterate through upper triangle of symmetrical array 
+                for (int j = 0; j < i; j++)
+                    if (j == i - 1 && str[i] == str[j])             // check for lengths of 2
+                        return true;                    
+                    else                                            // check for lengths greater than 2
+                        if (grid[j + 1, i - 1] && str[i] == str[j])
+                            return true;
+                        
+            return false;
+        }     
     }
 }
