@@ -1,0 +1,16 @@
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\bin\Debug\net5.0\PA6_w3.exe
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\bin\Debug\net5.0\PA6_w3.deps.json
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\bin\Debug\net5.0\PA6_w3.runtimeconfig.json
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\bin\Debug\net5.0\PA6_w3.runtimeconfig.dev.json
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\bin\Debug\net5.0\PA6_w3.dll
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\bin\Debug\net5.0\ref\PA6_w3.dll
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\bin\Debug\net5.0\PA6_w3.pdb
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\obj\Debug\net5.0\PA6_w3.csproj.AssemblyReference.cache
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\obj\Debug\net5.0\PA6_w3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\obj\Debug\net5.0\PA6_w3.AssemblyInfoInputs.cache
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\obj\Debug\net5.0\PA6_w3.AssemblyInfo.cs
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\obj\Debug\net5.0\PA6_w3.csproj.CoreCompileInputs.cache
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\obj\Debug\net5.0\PA6_w3.dll
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\obj\Debug\net5.0\ref\PA6_w3.dll
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\obj\Debug\net5.0\PA6_w3.pdb
+D:\Documents\UBC\CPEN 223\Code\PA6_w3\PA6_w3\obj\Debug\net5.0\PA6_w3.genruntimeconfig.cache

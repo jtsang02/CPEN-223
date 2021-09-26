@@ -29,3 +29,4 @@ D:\Documents\UBC\CPEN 223\Code\PA4_w3\PA4_w3\obj\Debug\net5.0\PA4_w3.dll
 D:\Documents\UBC\CPEN 223\Code\PA4_w3\PA4_w3\obj\Debug\net5.0\ref\PA4_w3.dll
 D:\Documents\UBC\CPEN 223\Code\PA4_w3\PA4_w3\obj\Debug\net5.0\PA4_w3.pdb
 D:\Documents\UBC\CPEN 223\Code\PA4_w3\PA4_w3\obj\Debug\net5.0\PA4_w3.genruntimeconfig.cache
+D:\Documents\UBC\CPEN 223\Code\PA4_w3\PA4_w3\obj\Debug\net5.0\PA4_w3.csproj.AssemblyReference.cache

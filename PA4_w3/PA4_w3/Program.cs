@@ -10,6 +10,7 @@ namespace Activity
             // driver
             string message = "123 $ Word";
             Console.WriteLine(ToggleCase(message));
+            
         }
         static string ToggleCase(string str) { 
             
