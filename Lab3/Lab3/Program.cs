@@ -11,60 +11,36 @@ namespace Lab3 {
 
         static void Main() {
 
-            List<int> arrayTestPPP = new List<int>() { 2, 9, 11, 11, 21, 21, 253, 348, 211, 204, 47, 53 };
-
-            /*(foreach (int item in arrayTestPPP) { 
-                if (IsPPPrime(item))
-                    Console.WriteLine(item + " is a probable prime");
-                else
-                    Console.WriteLine(item + " is not a probable prime");
-            }*/
+            List<int> arrayTestPPP = new List<int>() { 0, 2, 9, 253, 11, 9, 21, 21, 253, 348, 211, 204, 47, 53 };
             GetAllPPPrimes(arrayTestPPP).ForEach(Console.WriteLine);
         }
 
         public static List<int> GetAllPPPrimes(List<int> intList) {
 
-            // original idea with one pass
-            // create new list that will hold PPPs
-            // iterate thru intList to find PPPs, add them to new list in ascending order and check for duplicates
-
-            int[] tempArray = new int[intList.Count];
             List<int> newList = new List<int>();
+            intList.Sort();
 
-            int temp = 0;
-            for (int i = 0; i < intList.Count; i++) {
-                if (IsPPPrime(intList[i]) && temp != intList[i]) {
-                    tempArray[i] = intList[i];
-                    temp = intList[i];
-                    //Console.WriteLine(temp);
+            int temp = 0;                                               // temp variable that is not PPP
+            for (int i = 0; i < intList.Count; i++)                     
+                if (IsPPPrime(intList[i]) && intList[i] != temp) {      // check for back to back repeats in sorted list
+                    newList.Add(intList[i]);                            
+                    temp = intList[i];                                  // set temp variable to added PPP    
                 }
-            }
-            //Console.WriteLine("break");
-
-            Array.Sort(tempArray);
-
-            for (int i = 0; i < tempArray.Length; i++)
-                if (tempArray[i] != 0)
-                    newList.Add(tempArray[i]);
 
             return newList;
         }
         public static bool IsPPPrime(int num) {
 
-            if (num == 2 || num == 3 || num == 5)
-                return true;
+            if (num == 2 || num == 3 || num == 5)   return true;        // specific conditions
 
             int count = 0;
             for (int a = 2; a < num; a++) { 
                 BigInteger A = BigInteger.Pow(a, num) % num;
-                if (A == a && a % 3 == 0) {
+                if (A == a && a % 3 == 0)
                     count++;
-                    //Console.WriteLine("a or b is " + a);
-                }
-                if (count > 1)
-                    return true;
+                if (count > 1)  return true;
             }
-
+            
             return false;
         }
     }
