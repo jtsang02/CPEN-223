@@ -18,7 +18,7 @@ namespace EquationSolver {
 
         }
     }
-    class QuadraticEquation {
+    public class QuadraticEquation {
 
         private double a, b, c;
 
@@ -43,6 +43,15 @@ namespace EquationSolver {
                 Console.WriteLine("there are no real roots");
 
             }
+        }
+
+        public Boolean RealRoots() {
+            
+            double discriminant = b * b - (4 * a * c);
+
+            if (discriminant >= 0)  return true;
+
+            else                    return false;
         }
     }
 }

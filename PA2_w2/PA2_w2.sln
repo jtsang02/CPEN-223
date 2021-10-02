@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA2_w2", "PA2_w2\PA2_w2.csproj", "{B0A38F6E-DD15-4861-8B1E-89DA5991E145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PA2_w2", "PA2_w2\PA2_w2.csproj", "{B0A38F6E-DD15-4861-8B1E-89DA5991E145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA2_w2Tests", "PA2_w2Tests\PA2_w2Tests.csproj", "{48588926-6DC6-4BD7-93A0-F4B850E417D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B0A38F6E-DD15-4861-8B1E-89DA5991E145}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0A38F6E-DD15-4861-8B1E-89DA5991E145}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0A38F6E-DD15-4861-8B1E-89DA5991E145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48588926-6DC6-4BD7-93A0-F4B850E417D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48588926-6DC6-4BD7-93A0-F4B850E417D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48588926-6DC6-4BD7-93A0-F4B850E417D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48588926-6DC6-4BD7-93A0-F4B850E417D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
