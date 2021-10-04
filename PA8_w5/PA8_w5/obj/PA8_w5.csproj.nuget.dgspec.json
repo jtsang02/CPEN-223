@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab4\\Lab4\\Lab4.csproj": {}
+    "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\PA8_w5\\PA8_w5\\PA8_w5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab4\\Lab4\\Lab4.csproj": {
+    "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\PA8_w5\\PA8_w5\\PA8_w5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab4\\Lab4\\Lab4.csproj",
-        "projectName": "Lab4",
-        "projectPath": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab4\\Lab4\\Lab4.csproj",
+        "projectUniqueName": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\PA8_w5\\PA8_w5\\PA8_w5.csproj",
+        "projectName": "PA8_w5",
+        "projectPath": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\PA8_w5\\PA8_w5\\PA8_w5.csproj",
         "packagesPath": "C:\\Users\\Josiah's MSi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab4\\Lab4\\obj\\",
+        "outputPath": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\PA8_w5\\PA8_w5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Josiah's MSi\\AppData\\Roaming\\NuGet\\NuGet.Config",

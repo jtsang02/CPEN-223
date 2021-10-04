@@ -1,0 +1,16 @@
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\obj\Debug\net5.0\PA8_w5.csproj.AssemblyReference.cache
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\obj\Debug\net5.0\PA8_w5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\obj\Debug\net5.0\PA8_w5.AssemblyInfoInputs.cache
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\obj\Debug\net5.0\PA8_w5.AssemblyInfo.cs
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\obj\Debug\net5.0\PA8_w5.csproj.CoreCompileInputs.cache
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\bin\Debug\net5.0\PA8_w5.exe
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\bin\Debug\net5.0\PA8_w5.deps.json
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\bin\Debug\net5.0\PA8_w5.runtimeconfig.json
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\bin\Debug\net5.0\PA8_w5.runtimeconfig.dev.json
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\bin\Debug\net5.0\PA8_w5.dll
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\bin\Debug\net5.0\ref\PA8_w5.dll
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\bin\Debug\net5.0\PA8_w5.pdb
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\obj\Debug\net5.0\PA8_w5.dll
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\obj\Debug\net5.0\ref\PA8_w5.dll
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\obj\Debug\net5.0\PA8_w5.pdb
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\PA8_w5\PA8_w5\obj\Debug\net5.0\PA8_w5.genruntimeconfig.cache
