@@ -1,5 +1,5 @@
-﻿//Student name:
-//Student number:
+﻿//Student name: Josiah Tsang    
+//Student number: 74191248
 //Implementing the UniqueWordCount and CountOccurrences methods
 
 using System;
@@ -62,9 +62,23 @@ namespace Lab4
         /// <returns>the number of times wordFragment occurs 
         /// in the file that WordCounter is associated with
         /// </returns>
-        public int CountOccurrences(string wordFragment)
-        {
+        public int CountOccurrences (string wordFragment) {
             // ToDo: Implement this method
+            int count = 0;
+            try {
+                foreach (KeyValuePair<string, int> kvp in map) {
+                    if (kvp.Key == wordFragment) {
+                        count += 1;
+                    }
+
+                    return count;
+                }
+            }
+
+            catch (NullReferenceException) {
+                return 0;
+            }
+                
         }
 
         // 
