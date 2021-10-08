@@ -13,6 +13,8 @@ namespace Lab3 {
 
             List<int> arrayTestPPP = new List<int>() { 0, 2, 9, 253, 11, 9, 21, 21, 253, 348, 211, 204, 47, 53 };
             GetAllPPPrimes(arrayTestPPP).ForEach(Console.WriteLine);
+
+
         }
 
         public static List<int> GetAllPPPrimes(List<int> intList) {
@@ -35,7 +37,7 @@ namespace Lab3 {
 
             int count = 0;
             for (int a = 2; a < num; a++) { 
-                BigInteger A = BigInteger.Pow(a, num) % num;
+                BigInteger A = BigInteger.ModPow(a, num, num);          // better way of doing mod power
                 if (A == a && a % 3 == 0)
                     count++;
                 if (count > 1)  return true;

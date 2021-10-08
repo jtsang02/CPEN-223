@@ -4,12 +4,11 @@
 using System;
 using System.IO;
 
-namespace Lab4
-{
-    public class Program
-    {
-        static void Main()
-        {
+namespace Lab4 {
+    public class Program {
+        static void Main() {
+           
+            
             int nTests = 7;
             int pTests = Test.Testco1() +
                          Test.Testco2() +
@@ -22,72 +21,58 @@ namespace Lab4
             Console.WriteLine($"passing tests: {pTests}");
             Console.WriteLine($"failing tests: {nTests - pTests}");
             Console.WriteLine("===========");
-
+            
         }
     }
 
-    public class Test
-    {
-        public static int Testuw1()
-        {
-            try
-            {
+    public class Test {
+        public static int Testuw1() {
+            try {
                 WordCounter myCounter = new WordCounter("http://textfiles.com/conspiracy/bankcris.txt");
-                if (741 == myCounter.UniqueWordCount())
-                {
+                //Console.WriteLine(myCounter.ToString());
+                if (741 == myCounter.UniqueWordCount()) {
                     return 1;
                 }
-                else
-                {
+                else {
                     return 0;
                 }
             }
-            catch (IOException ioe)
-            {
+            catch (IOException ioe) {
                 Console.WriteLine($"IO Exception: {ioe.Message}");
                 return 0;
             }
         }
 
 
-        public static int Testco1()
-        {
-            try
-            {
+        public static int Testco1() {
+            try {
                 WordCounter myCounter = new WordCounter("http://textfiles.com/conspiracy/bankcris.txt");
-                if (118 == myCounter.CountOccurrences("the"))
-                {
+                Console.WriteLine(myCounter.ToString());
+                if (118 == myCounter.CountOccurrences("the")) {
                     return 1;
                 }
-                else
-                {
+                else {
                     return 0;
                 }
             }
-            catch (IOException ioe)
-            {
+            catch (IOException ioe) {
                 Console.WriteLine($"IO Exception: {ioe.Message}");
                 return 0;
             }
         }
 
 
-        public static int Testco2()
-        {
-            try
-            {
+        public static int Testco2() {
+            try {
                 WordCounter myCounter = new WordCounter("http://textfiles.com/conspiracy/bankcris.txt");
-                if (0 == myCounter.CountOccurrences(null))
-                {
+                if (0 == myCounter.CountOccurrences(null)) {
                     return 1;
                 }
-                else
-                {
+                else {
                     return 0;
                 }
             }
-            catch (IOException ioe)
-            {
+            catch (IOException ioe) {
                 Console.WriteLine($"IO Exception: {ioe.Message}");
                 return 0;
             }
@@ -99,88 +84,68 @@ namespace Lab4
         //    Occurrences of after in http://textfiles.com/conspiracy/bookfile.txt: 5
 
 
-        public static int Testuw2()
-        {
-            try
-            {
+        public static int Testuw2() {
+            try {
                 WordCounter myCounter = new WordCounter("http://textfiles.com/conspiracy/bookfile.txt");
-                if (2364 == myCounter.UniqueWordCount())
-                {
+                if (2364 == myCounter.UniqueWordCount()) {
                     return 1;
                 }
-                else
-                {
+                else {
                     return 0;
                 }
             }
-            catch (IOException ioe)
-            {
+            catch (IOException ioe) {
                 Console.WriteLine($"IO Exception: {ioe.Message}");
                 return 0;
             }
         }
 
 
-        public static int Testco3_1()
-        {
-            try
-            {
+        public static int Testco3_1() {
+            try {
                 WordCounter myCounter = new WordCounter("http://textfiles.com/conspiracy/bookfile.txt");
-                if (385 == myCounter.CountOccurrences("the"))
-                {
+                if (385 == myCounter.CountOccurrences("the")) {
                     return 1;
                 }
-                else
-                {
+                else {
                     return 0;
                 }
             }
-            catch (IOException ioe)
-            {
+            catch (IOException ioe) {
                 Console.WriteLine($"IO Exception: {ioe.Message}");
                 return 0;
             }
         }
 
 
-        public static int Testco3_2()
-        {
-            try
-            {
+        public static int Testco3_2() {
+            try {
                 WordCounter myCounter = new WordCounter("http://textfiles.com/conspiracy/bookfile.txt");
-                if (5 == myCounter.CountOccurrences("after"))
-                {
+                if (5 == myCounter.CountOccurrences("after")) {
                     return 1;
                 }
-                else
-                {
+                else {
                     return 0;
                 }
             }
-            catch (IOException ioe)
-            {
+            catch (IOException ioe) {
                 Console.WriteLine($"IO Exception: {ioe.Message}");
                 return 0;
             }
         }
 
 
-        public static int Testco3_3()
-        {
-            try
-            {
+        public static int Testco3_3() {
+            try {
                 WordCounter myCounter = new WordCounter("http://textfiles.com/conspiracy/bookfile.txt");
-                if (234 == myCounter.CountOccurrences(","))
-                {
+                if (234 == myCounter.CountOccurrences(",")) {
                     return 1;
                 }
-                else
-                {
+                else {
                     return 0;
                 }
             }
-            catch (IOException ioe)
-            {
+            catch (IOException ioe) {
                 Console.WriteLine($"IO Exception: {ioe.Message}");
                 return 0;
             }

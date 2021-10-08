@@ -6,34 +6,27 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lab4
-{
-    public class WordCounter
-    {
+namespace Lab4 {
+    public class WordCounter {
         private readonly Dictionary<string, int> map = new Dictionary<string, int>();
 
         // Use this constructor as is.
-        public WordCounter(string url)
-        {
-            try
-            {
+        public WordCounter(string url) {
+            try {
                 // get the content from the web and store in responseBody
                 WebContent content = new WebContent(url);
                 string responseBody = content.GetWebContent();
 
                 // store all unique words in map (a dictionary)
-                foreach (string word in responseBody.Split((string[])null, StringSplitOptions.RemoveEmptyEntries))
-                {
-                    if (map.ContainsKey(word))
-                    {
+                foreach (string word in responseBody.Split((string[])null, StringSplitOptions.RemoveEmptyEntries)) {
+                    if (map.ContainsKey(word)) {
                         map[word] = map[word] + 1;
                     }
                     else
                         map.Add(word, 1);
                 }
             }
-            catch (NullReferenceException)
-            {
+            catch (NullReferenceException) {
                 Console.WriteLine("Null reference exeption: check the url.");
             }
         }
@@ -43,8 +36,8 @@ namespace Lab4
         /// that the WordCounter's map is associated with.
         /// </summary>
         /// <returns>the number of unique words</returns>
-        public int UniqueWordCount()
-        {
+        public int UniqueWordCount() {
+            return 0;
             // ToDo: Implement this method
         }
 
@@ -62,23 +55,22 @@ namespace Lab4
         /// <returns>the number of times wordFragment occurs 
         /// in the file that WordCounter is associated with
         /// </returns>
-        public int CountOccurrences (string wordFragment) {
+        public int CountOccurrences(string wordFragment) {
             // ToDo: Implement this method
             int count = 0;
-            try {
-                foreach (KeyValuePair<string, int> kvp in map) {
-                    if (kvp.Key == wordFragment) {
-                        count += 1;
-                    }
 
-                    return count;
-                }
-            }
+        foreach (KeyValuePair<string, int> kvp in map) {
 
-            catch (NullReferenceException) {
-                return 0;
+                if (String.IsNullOrEmpty(kvp.Key))
+                    count += 0;
+                //throw new ArgumentException("argument cannot be empty or null");
+                // disassemble kvp.Key to get substrings
+                else if (kvp.Key == wordFragment)
+                    count += 1;
             }
-                
+            
+            return count;
+
         }
 
         // 
@@ -88,11 +80,9 @@ namespace Lab4
         /// Use as is.
         /// </summary>
         /// <returns>a string</returns>
-        public override string ToString()
-        {
+        public override string ToString() {
             StringBuilder output = new StringBuilder();
-            foreach (KeyValuePair<string, int> item in map)
-            {
+            foreach (KeyValuePair<string, int> item in map) {
                 output.Append($"({item.Key}, {item.Value})");
             }
             return output.ToString();
