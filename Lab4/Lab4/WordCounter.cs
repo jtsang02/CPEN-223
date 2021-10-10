@@ -63,12 +63,17 @@ namespace Lab4 {
 
                 if (String.IsNullOrEmpty(kvp.Key))
                     count += 0;
-                //throw new ArgumentException("argument cannot be empty or null");
+                // throw new ArgumentException("argument cannot be empty or null");
                 // disassemble kvp.Key to get substrings
                 else if (kvp.Key == wordFragment)
                     count += 1;
+                else {
+                    for (int i = 0; i < (kvp.Key).Length; i++) {
+
+                    }
+                }
             }
-            
+            Console.WriteLine($"count is {count}");
             return count;
 
         }
