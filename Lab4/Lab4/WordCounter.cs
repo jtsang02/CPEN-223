@@ -64,23 +64,15 @@ namespace Lab4 {
                 foreach (KeyValuePair<string, int> kvp in map) {
                     if (String.IsNullOrEmpty(kvp.Key))
                         break;
-                    else {
-                        for (int i = 0; i < (kvp.Key).Length; i++) {
-                            int length = (kvp.Key).Length - i;
-                            if (wordFragment.Length <= length) {
-                                String substring = (kvp.Key).Substring(i, wordFragment.Length);
-                                if (string.Equals(substring, wordFragment))
-                                    count += kvp.Value;
-                            }
-                        }
-                    }
+                    else
+                        if ((kvp.Key).Contains(wordFragment))
+                            count += kvp.Value;
                 }
-                //Console.WriteLine($"The string '{wordFragment}' occurs {count} times");
+                // Console.WriteLine($"The string '{wordFragment}' occurs {count} times");
                 return count;
             }
         }
 
-        // 
         /// <summary>
         /// a method to make it easier to print details 
         /// of the WordCounter's map.

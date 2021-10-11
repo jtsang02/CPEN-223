@@ -7,7 +7,7 @@ using System.IO;
 namespace Lab4 {
     public class Program {
         static void Main() {
-            /*
+            
             int nTests = 7;
             int pTests = Test.Testco1() +
                          Test.Testco2() +
@@ -20,8 +20,7 @@ namespace Lab4 {
             Console.WriteLine($"passing tests: {pTests}");
             Console.WriteLine($"failing tests: {nTests - pTests}");
             Console.WriteLine("===========");
-            */
-            Console.WriteLine(Test.Testco3_3());
+            
         }
     }
 
