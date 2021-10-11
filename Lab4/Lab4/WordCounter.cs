@@ -36,9 +36,8 @@ namespace Lab4 {
         /// that the WordCounter's map is associated with.
         /// </summary>
         /// <returns>the number of unique words</returns>
-        public int UniqueWordCount() {
-            return 0;
-            // ToDo: Implement this method
+        public int UniqueWordCount() {  
+            return map.Count;               // each key/value pair is a unique word
         }
 
         /// <summary>
@@ -56,26 +55,29 @@ namespace Lab4 {
         /// in the file that WordCounter is associated with
         /// </returns>
         public int CountOccurrences(string wordFragment) {
-            // ToDo: Implement this method
-            int count = 0;
+            
+            if (string.IsNullOrEmpty(wordFragment))
+                return 0;
 
-        foreach (KeyValuePair<string, int> kvp in map) {
-
-                if (String.IsNullOrEmpty(kvp.Key))
-                    count += 0;
-                // throw new ArgumentException("argument cannot be empty or null");
-                // disassemble kvp.Key to get substrings
-                else if (kvp.Key == wordFragment)
-                    count += 1;
-                else {
-                    for (int i = 0; i < (kvp.Key).Length; i++) {
-
+            else {
+                int count = 0;
+                foreach (KeyValuePair<string, int> kvp in map) {
+                    if (String.IsNullOrEmpty(kvp.Key))
+                        break;
+                    else {
+                        for (int i = 0; i < (kvp.Key).Length; i++) {
+                            int length = (kvp.Key).Length - i;
+                            if (wordFragment.Length <= length) {
+                                String substring = (kvp.Key).Substring(i, wordFragment.Length);
+                                if (string.Equals(substring, wordFragment))
+                                    count += kvp.Value;
+                            }
+                        }
                     }
                 }
+                //Console.WriteLine($"The string '{wordFragment}' occurs {count} times");
+                return count;
             }
-            Console.WriteLine($"count is {count}");
-            return count;
-
         }
 
         // 

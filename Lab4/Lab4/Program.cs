@@ -7,21 +7,21 @@ using System.IO;
 namespace Lab4 {
     public class Program {
         static void Main() {
-           
-            
+            /*
             int nTests = 7;
             int pTests = Test.Testco1() +
                          Test.Testco2() +
                          Test.Testco3_1() +
                          Test.Testco3_2() +
-                         Test.Testco3_3() +
+                         Test.Testco3_3() +         // testco3_3 not working
                          Test.Testuw1() +
                          Test.Testuw2();
             Console.WriteLine("===========");
             Console.WriteLine($"passing tests: {pTests}");
             Console.WriteLine($"failing tests: {nTests - pTests}");
             Console.WriteLine("===========");
-            
+            */
+            Console.WriteLine(Test.Testco3_3());
         }
     }
 
@@ -29,7 +29,6 @@ namespace Lab4 {
         public static int Testuw1() {
             try {
                 WordCounter myCounter = new WordCounter("http://textfiles.com/conspiracy/bankcris.txt");
-                //Console.WriteLine(myCounter.ToString());
                 if (741 == myCounter.UniqueWordCount()) {
                     return 1;
                 }
@@ -43,11 +42,11 @@ namespace Lab4 {
             }
         }
 
-
+        // working on this test 
         public static int Testco1() {
             try {
                 WordCounter myCounter = new WordCounter("http://textfiles.com/conspiracy/bankcris.txt");
-                Console.WriteLine(myCounter.ToString());
+                //Console.WriteLine(myCounter.ToString());
                 if (118 == myCounter.CountOccurrences("the")) {
                     return 1;
                 }
@@ -142,6 +141,7 @@ namespace Lab4 {
                     return 1;
                 }
                 else {
+                    Console.WriteLine("fail");
                     return 0;
                 }
             }
