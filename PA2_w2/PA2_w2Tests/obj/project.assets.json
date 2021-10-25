@@ -6130,34 +6130,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jtsan\\.nuget\\packages\\": {}
+    "C:\\Users\\Josiah's MSi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\UBC\\CPEN 223\\Code\\PA2_w2\\PA2_w2Tests\\PA2_w2Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\PA2_w2\\PA2_w2Tests\\PA2_w2Tests.csproj",
       "projectName": "PA2_w2Tests",
-      "projectPath": "D:\\Documents\\UBC\\CPEN 223\\Code\\PA2_w2\\PA2_w2Tests\\PA2_w2Tests.csproj",
-      "packagesPath": "C:\\Users\\jtsan\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\UBC\\CPEN 223\\Code\\PA2_w2\\PA2_w2Tests\\obj\\",
+      "projectPath": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\PA2_w2\\PA2_w2Tests\\PA2_w2Tests.csproj",
+      "packagesPath": "C:\\Users\\Josiah's MSi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\PA2_w2\\PA2_w2Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jtsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Josiah's MSi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Documents\\UBC\\CPEN 223\\Code\\PA2_w2\\PA2_w2\\PA2_w2.csproj": {
-              "projectPath": "D:\\Documents\\UBC\\CPEN 223\\Code\\PA2_w2\\PA2_w2\\PA2_w2.csproj"
+            "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\PA2_w2\\PA2_w2\\PA2_w2.csproj": {
+              "projectPath": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\PA2_w2\\PA2_w2\\PA2_w2.csproj"
             }
           }
         }
@@ -6204,7 +6203,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
