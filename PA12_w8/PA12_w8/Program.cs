@@ -2,7 +2,9 @@
 
 public class NewtonRaphsonExample {
     static void Main () {
-        //Write code here to test the method
+
+        Console.Write(NewtonRaphson1());
+    
     }
     /// <summary>
     /// Using Newton-Raphson, this method calculates the root x.
@@ -13,8 +15,21 @@ public class NewtonRaphsonExample {
     /// </summary>
     /// <returns>The root of the function specified in the SampleFunc1 method.</returns>
     static double NewtonRaphson1 () {
-        // To implement
 
+        try {
+            double x = 0.5;                         // initial guess
+            int maxAttempts = 500;
+            for (int i = 0; i < maxAttempts; i++) {
+                double x_n = x - (SampleFunc1(x) / SampleFunc1Prime(x));
+                if (Math.Abs(x_n - x) < 0.00001)
+                    return x_n;
+                x = x_n;
+            }
+        }
+        catch (DivideByZeroException) {
+            Console.WriteLine("f'(x) cannot be 0 in denominator");
+        }
+        return 0;
     }
 
     //This is the function whose root we want to find
