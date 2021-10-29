@@ -1,6 +1,5 @@
 ﻿//Student name:     Josiah Tsang
 //Student number:   74191248
-// ADD DOCUMENTATION!!
 
 using System;
 using System.Collections.Generic;
@@ -8,11 +7,6 @@ using System.Collections.Generic;
 namespace Lab5 {
     public class Program {
         static void Main () {
-
-            DNA dna5 = new DNA("AAAGGTTACTGA");
-            HashSet<string> expectedSet = new HashSet<string>();
-            dna5.CodonSet();
-            
             //You could mainly use unit tests for testing.
         }
     }
@@ -36,13 +30,32 @@ namespace Lab5 {
             this.dna = dna;
         }
 
+        /// <summary>
+        /// Determines if a DNA sequence is a protein.
+        /// </summary>
+        /// <returns>Returns true if DNA sequence is a protein and false otherwise.</returns>
         public bool IsProtein () {
-            // protein if all are met:
-            // ignore junk regions mutatecodon()
-            // first 3 letters are ATG
-            // last 3 letters are TAA, TAG, TGA
-            // NucleotideCount(C) / count.string || NucleotideCount(G) / count.string >= 0.3
-            return false;
+
+            // remove junk
+            for (int i = 0; i < dna.Length; i++)
+                if (!(dna[i] == 'A' || dna[i] == 'C' || dna[i] == 'G' || dna[i] == 'T'))
+                    dna = dna.Remove(i, 1);
+
+            // check at least 5 codons including start and stop
+            if (CodonSet().Count < 5) return false;
+
+            // check first 3 letter are ATG
+            if (!(dna.Substring(0, 3) == "ATG"))    return false;
+
+            // check last 3 letters are TAA, TAG, TGA.
+            string lastCodon = dna.Substring(dna.Length - 3, 3);
+            if (!(lastCodon == "TAA" || lastCodon == "TAG" || lastCodon == "TGA"))  return false;
+
+            // check mass
+            double massPercent = (NucleotideCount('C') * 111.103 + NucleotideCount('G') * 151.128) / TotalMass();
+            if (massPercent < 0.3)  return false;
+
+            return true;
         }
 
         /// <summary>
@@ -75,6 +88,11 @@ namespace Lab5 {
             else
                 return 0;
         }
+
+        /// <summary>
+        /// Creates a hashset of codons in the dna sequence.
+        /// </summary>
+        /// <returns>Returns a hashset containing all unique codons in the dna sequence.</returns>
         public HashSet<string> CodonSet () {
 
             // remove junk
@@ -94,6 +112,7 @@ namespace Lab5 {
             }
             return codonSet;
         }
+
         /// <summary>
         /// Swaps a new codon with the original codon and clears junk.
         /// </summary>
@@ -141,7 +160,7 @@ namespace Lab5 {
                     dnasequence = dnasequence.Remove(i, 1);
 
             //check
-            return (dnasequence.Length >= 3) ? true : false;
+            return dnasequence.Length >= 3;
         }
     }
 }
