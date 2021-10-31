@@ -1,0 +1,16 @@
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\bin\Debug\net5.0\PA_Bonus3_w8.exe
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\bin\Debug\net5.0\PA_Bonus3_w8.deps.json
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\bin\Debug\net5.0\PA_Bonus3_w8.runtimeconfig.json
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\bin\Debug\net5.0\PA_Bonus3_w8.runtimeconfig.dev.json
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\bin\Debug\net5.0\PA_Bonus3_w8.dll
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\bin\Debug\net5.0\ref\PA_Bonus3_w8.dll
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\bin\Debug\net5.0\PA_Bonus3_w8.pdb
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\obj\Debug\net5.0\PA_Bonus3_w8.csproj.AssemblyReference.cache
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\obj\Debug\net5.0\PA_Bonus3_w8.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\obj\Debug\net5.0\PA_Bonus3_w8.AssemblyInfoInputs.cache
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\obj\Debug\net5.0\PA_Bonus3_w8.AssemblyInfo.cs
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\obj\Debug\net5.0\PA_Bonus3_w8.csproj.CoreCompileInputs.cache
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\obj\Debug\net5.0\PA_Bonus3_w8.dll
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\obj\Debug\net5.0\ref\PA_Bonus3_w8.dll
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\obj\Debug\net5.0\PA_Bonus3_w8.pdb
+D:\Documents\UBC\CPEN 223\Code\PA_Bonus3_w8\PA_Bonus3_w8\obj\Debug\net5.0\PA_Bonus3_w8.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PA_Bonus3_w8/1.0.0": {
+        "runtime": {
+          "PA_Bonus3_w8.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PA_Bonus3_w8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
