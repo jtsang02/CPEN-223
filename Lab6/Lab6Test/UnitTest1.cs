@@ -18,5 +18,13 @@ namespace Lab6.Tests {
             DNA actual = dna13.CutAndSplice("GGGCAT", 2, "ATTGAT");
             Assert.AreEqual(expected.GetSequence(), actual.GetSequence());
         }
+
+        //[TestMethod()]
+        //[ExpectedException(typeof(ArgumentException), "")]
+        //public void Test3_cutAndSplice () {
+        //    DNA dna14 = new DNA("ASDLKJEWER");
+        //    DNA actual = dna14.CutAndSplice(null, 2, null);
+        //    Assert.ThrowsException();
+        //}
     }
 }

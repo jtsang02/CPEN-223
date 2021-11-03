@@ -8,12 +8,7 @@ using System.Text;
 namespace Lab6 {
     public class Program {
         static void Main () {
-
-            //// canvas example
-            //DNA test = new DNA("ATCGGGAXTT");
-            //test.CutAndSplice("GGGATT", 3, "CCATCT");
-            //Console.WriteLine("ATCGGGCCATCTATT");
-
+            // unit tests
         }
     }
 
@@ -86,17 +81,28 @@ namespace Lab6 {
 
             if (dna.Contains(restrictionEnzyme)) {  // to implement
 
-                // this only finds first occurance
-                splicePosition += dna.IndexOf(restrictionEnzyme);   // first index of restriction enzyme
                 StringBuilder splicedDNA = new StringBuilder();
-                splicedDNA.Append(dna.Substring(0, splicePosition));   // add Left substring at splice
-                splicedDNA.Append(splicee);                                // add splicee in middle
-                splicedDNA.Append(dna.Substring(splicePosition));      // add right substring at splice
-                
-                return new DNA(splicedDNA.ToString());
-                                   
-            }
 
+                while (dna.Contains(restrictionEnzyme)) {
+
+                    // split dna string into substrings
+                    string sub1 = dna.Substring(0, dna.IndexOf(restrictionEnzyme) + restrictionEnzyme.Length);
+                    string sub2 = dna.Substring(dna.IndexOf(restrictionEnzyme) + restrictionEnzyme.Length);
+
+                    int tempPosition = splicePosition + sub1.IndexOf(restrictionEnzyme);    // first index of restriction enzyme                    
+                    splicedDNA.Append(sub1.Substring(0, tempPosition));                     // add Left substring at splice
+                    splicedDNA.Append(splicee);                                             // add splicee in middle
+                    splicedDNA.Append(sub1.Substring(tempPosition));                        // add right substring at splice
+
+                    if (sub2.Contains(restrictionEnzyme))
+                        dna = sub2;                                                         // reset dna to new string
+                    else {
+                        splicedDNA.Append(sub2);                                            // add remainder to string and break
+                        break;
+                    }                                        
+                }
+                return new DNA(splicedDNA.ToString());                 
+            }
             else
                 return new DNA(dna);
         }
