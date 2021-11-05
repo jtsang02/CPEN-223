@@ -19,12 +19,13 @@ namespace Lab6.Tests {
             Assert.AreEqual(expected.GetSequence(), actual.GetSequence());
         }
 
-        //[TestMethod()]
-        //[ExpectedException(typeof(ArgumentException), "")]
-        //public void Test3_cutAndSplice () {
-        //    DNA dna14 = new DNA("ASDLKJEWER");
-        //    DNA actual = dna14.CutAndSplice(null, 2, null);
-        //    Assert.ThrowsException();
-        //}
+        [TestMethod()]
+        public void Test3_cutAndSplice () {
+            DNA dna = new DNA("ATCGGGAXTT");
+            DNA expected = new DNA("ACCATCTTCGGGATT");
+            DNA actual = dna.CutAndSplice("ATC", 1, "CCATCT");
+            Assert.AreEqual(expected.GetSequence(), actual.GetSequence());
+        }
+
     }
 }
