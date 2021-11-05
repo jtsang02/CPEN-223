@@ -1,0 +1,16 @@
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\bin\Debug\net5.0\PA14_w9.exe
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\bin\Debug\net5.0\PA14_w9.deps.json
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\bin\Debug\net5.0\PA14_w9.runtimeconfig.json
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\bin\Debug\net5.0\PA14_w9.runtimeconfig.dev.json
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\bin\Debug\net5.0\PA14_w9.dll
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\bin\Debug\net5.0\ref\PA14_w9.dll
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\bin\Debug\net5.0\PA14_w9.pdb
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\obj\Debug\net5.0\PA14_w9.csproj.AssemblyReference.cache
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\obj\Debug\net5.0\PA14_w9.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\obj\Debug\net5.0\PA14_w9.AssemblyInfoInputs.cache
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\obj\Debug\net5.0\PA14_w9.AssemblyInfo.cs
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\obj\Debug\net5.0\PA14_w9.csproj.CoreCompileInputs.cache
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\obj\Debug\net5.0\PA14_w9.dll
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\obj\Debug\net5.0\ref\PA14_w9.dll
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\obj\Debug\net5.0\PA14_w9.pdb
+D:\Documents\UBC\CPEN 223\Code\PA14_w9\PA14_w9\obj\Debug\net5.0\PA14_w9.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PA14_w9/1.0.0": {
+        "runtime": {
+          "PA14_w9.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PA14_w9/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
