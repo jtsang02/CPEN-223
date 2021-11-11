@@ -18,7 +18,7 @@ namespace Lab7.Tests {
             return Math.Cos(x) - x * x * x;
         }
 
-        double TestFunction3 (double x) {   // the x2 − 612 equation
+        double TestFunction3 (double x) {   // the x^2 − 612 equation
             return Math.Pow(x, 2) - 612;
         }
 
@@ -48,6 +48,12 @@ namespace Lab7.Tests {
 
         [TestMethod()]
         [ExpectedException(typeof(System.ArgumentException))]
+        public void BisectionTest4 () {
+            RootFinding.Bisection(TestFunction2, 0.8, 0.85, -0.0001);
+        }
+
+        [TestMethod()]
+        [ExpectedException(typeof(System.ArgumentException))]
         public void SecantTest1 () {
             RootFinding.Secant(TestFunction3, 0.85, 0.8, 0.0001);
         }
@@ -57,8 +63,23 @@ namespace Lab7.Tests {
             double epsilon = 0.0001;
             double x0 = 10;
             double x1 = 30;
-            double result = RootFinding.Bisection(TestFunction3, x0, x1, epsilon);
+            double result = RootFinding.Secant(TestFunction3, x0, x1, epsilon);
             Assert.AreEqual(24.7386, result, epsilon);
+        }
+
+        [TestMethod()]
+        [ExpectedException(typeof(System.ArgumentException))]
+        public void SecantTest3 () {
+            RootFinding.Secant(TestFunction3, 0.85, 0.8, -0.0001);
+        }
+
+        [TestMethod()]
+        public void SecantTest4 () {
+            double epsilon = 0.0001;
+            double x0 = 0;
+            double x1 = 1;
+            double result = RootFinding.Secant(TestFunction2, x0, x1, epsilon);
+            Assert.AreEqual(0.865474, result, epsilon);
         }
     }
 }
