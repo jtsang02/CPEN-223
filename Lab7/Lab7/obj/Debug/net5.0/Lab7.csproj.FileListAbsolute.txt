@@ -1,0 +1,16 @@
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\bin\Debug\net5.0\Lab7.exe
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\bin\Debug\net5.0\Lab7.deps.json
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\bin\Debug\net5.0\Lab7.runtimeconfig.json
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\bin\Debug\net5.0\Lab7.runtimeconfig.dev.json
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\bin\Debug\net5.0\Lab7.dll
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\bin\Debug\net5.0\ref\Lab7.dll
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\bin\Debug\net5.0\Lab7.pdb
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\obj\Debug\net5.0\Lab7.csproj.AssemblyReference.cache
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\obj\Debug\net5.0\Lab7.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\obj\Debug\net5.0\Lab7.AssemblyInfoInputs.cache
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\obj\Debug\net5.0\Lab7.AssemblyInfo.cs
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\obj\Debug\net5.0\Lab7.csproj.CoreCompileInputs.cache
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\obj\Debug\net5.0\Lab7.dll
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\obj\Debug\net5.0\ref\Lab7.dll
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\obj\Debug\net5.0\Lab7.pdb
+D:\Documents\UBC\CPEN 223\Code\Lab7\Lab7\obj\Debug\net5.0\Lab7.genruntimeconfig.cache
