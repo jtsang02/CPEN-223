@@ -1,0 +1,16 @@
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\obj\Debug\net5.0\PA16_w11.csproj.AssemblyReference.cache
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\obj\Debug\net5.0\PA16_w11.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\obj\Debug\net5.0\PA16_w11.AssemblyInfoInputs.cache
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\obj\Debug\net5.0\PA16_w11.AssemblyInfo.cs
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\obj\Debug\net5.0\PA16_w11.csproj.CoreCompileInputs.cache
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\bin\Debug\net5.0\PA16_w11.exe
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\bin\Debug\net5.0\PA16_w11.deps.json
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\bin\Debug\net5.0\PA16_w11.runtimeconfig.json
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\bin\Debug\net5.0\PA16_w11.runtimeconfig.dev.json
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\bin\Debug\net5.0\PA16_w11.dll
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\bin\Debug\net5.0\ref\PA16_w11.dll
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\bin\Debug\net5.0\PA16_w11.pdb
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\obj\Debug\net5.0\PA16_w11.dll
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\obj\Debug\net5.0\ref\PA16_w11.dll
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\obj\Debug\net5.0\PA16_w11.pdb
+D:\Documents\UBC\CPEN 223\Code\PA16_w11\PA16_w11\obj\Debug\net5.0\PA16_w11.genruntimeconfig.cache
