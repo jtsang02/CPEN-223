@@ -33,5 +33,34 @@ namespace Lab8.Tests {
         public void DefiniteIntegralTest2 () {
             Calculus.RectangularMethod(TestFunction2, 0, 1, 0);
         }
+
+        [TestMethod()]
+        [ExpectedException(typeof(System.ArgumentException))]
+        public void DefiniteIntegralTest3 () {
+            Calculus.AdaptiveRectangularMethod(TestFunction2, 0, 1, 0, 0);
+        }
+
+        [TestMethod()]
+        public void DefiniteIntegralTest4 () {
+            int seed = 5;
+            double a = 0;
+            double b = 1;
+            double eps = 0.001;
+
+            double result = Calculus.AdaptiveRectangularMethod(TestFunction1, a, b, seed, eps);
+            Assert.AreEqual(2.50, result, 0.001);
+        }
+
+        [TestMethod()]
+        public void DefiniteIntegralTest5 () {
+            int seed = 7;
+            double a = 0;
+            double b = 1;
+            double eps = 0.001;
+
+            double result = Calculus.AdaptiveRectangularMethod(TestFunction2, a, b, seed, eps);
+            Assert.AreEqual(0.59147, result, 0.001);
+        }
+
     }
 }
