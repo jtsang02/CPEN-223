@@ -83,7 +83,7 @@ namespace Lab8 {
         /// <param name="h">The h used for the central difference method.</param>
         /// <returns>Returns the calculated derivative value. </returns>
         public static double CentralDifferenceDerivative (Function f, double x, double h) {
-            return 0;
+            return (f(x - 2 * h) - 8 * f(x - h) + 8 * f(x + h) - f(x + 2 * h)) / 12 * h;
         }
     }
 }

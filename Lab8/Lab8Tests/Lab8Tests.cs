@@ -62,5 +62,23 @@ namespace Lab8.Tests {
             Assert.AreEqual(0.59147, result, 0.001);
         }
 
+        [TestMethod()]
+        public void NumericalDifferentiationTest1 () {
+            double x = 3;
+            double h = 1;
+
+            double result = Calculus.CentralDifferenceDerivative(TestFunction1, x, h);
+            Assert.AreEqual(1, result, 0.001);
+        }
+
+        [TestMethod()]
+        public void NumericalDifferentiationTest2 () {
+            double x = 2;
+            double h = 1;
+
+            double result = Calculus.CentralDifferenceDerivative(TestFunction2, x, h);
+            Assert.AreEqual(-Math.Sin(x) - 3 * Math.Pow(x, 2), result, 0.1);
+        }
+
     }
 }
