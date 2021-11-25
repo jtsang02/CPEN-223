@@ -1,0 +1,16 @@
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\obj\Debug\net5.0\Lab9_Bonus.csproj.AssemblyReference.cache
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\obj\Debug\net5.0\Lab9_Bonus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\obj\Debug\net5.0\Lab9_Bonus.AssemblyInfoInputs.cache
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\obj\Debug\net5.0\Lab9_Bonus.AssemblyInfo.cs
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\obj\Debug\net5.0\Lab9_Bonus.csproj.CoreCompileInputs.cache
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\bin\Debug\net5.0\Lab9_Bonus.exe
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\bin\Debug\net5.0\Lab9_Bonus.deps.json
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\bin\Debug\net5.0\Lab9_Bonus.runtimeconfig.json
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\bin\Debug\net5.0\Lab9_Bonus.runtimeconfig.dev.json
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\bin\Debug\net5.0\Lab9_Bonus.dll
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\bin\Debug\net5.0\ref\Lab9_Bonus.dll
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\bin\Debug\net5.0\Lab9_Bonus.pdb
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\obj\Debug\net5.0\Lab9_Bonus.dll
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\obj\Debug\net5.0\ref\Lab9_Bonus.dll
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\obj\Debug\net5.0\Lab9_Bonus.pdb
+C:\Users\Josiah's MSi\OneDrive\Documents\Github\CPEN-223\Lab9_Bonus\Lab9_Bonus\obj\Debug\net5.0\Lab9_Bonus.genruntimeconfig.cache
