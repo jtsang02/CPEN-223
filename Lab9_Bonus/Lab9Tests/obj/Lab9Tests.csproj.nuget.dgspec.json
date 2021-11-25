@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9Tests\\Lab9Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9Tests\\Lab9Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9Tests\\Lab9Tests.csproj",
+        "projectName": "Lab9Tests",
+        "projectPath": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9Tests\\Lab9Tests.csproj",
+        "packagesPath": "C:\\Users\\Josiah's MSi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Josiah's MSi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9_Bonus\\Lab9_Bonus.csproj": {
+                "projectPath": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9_Bonus\\Lab9_Bonus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9_Bonus\\Lab9_Bonus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9_Bonus\\Lab9_Bonus.csproj",
+        "projectName": "Lab9_Bonus",
+        "projectPath": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9_Bonus\\Lab9_Bonus.csproj",
+        "packagesPath": "C:\\Users\\Josiah's MSi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9_Bonus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Josiah's MSi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
