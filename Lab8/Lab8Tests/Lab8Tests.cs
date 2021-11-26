@@ -63,6 +63,17 @@ namespace Lab8.Tests {
         }
 
         [TestMethod()]
+        public void DefiniteIntegralTest6 () {
+            int n_seed = 3;
+            double a = 2;
+            double b = 6;
+            double epsilon = 0.0001;
+
+            double result = Calculus.AdaptiveRectangularMethod(TestFunction2, a, b, n_seed, epsilon);
+            Assert.AreEqual(double.NaN, result);
+        }
+
+        [TestMethod()]
         public void NumericalDifferentiationTest1 () {
             double x = 3;
             double h = 1;
@@ -79,6 +90,5 @@ namespace Lab8.Tests {
             double result = Calculus.CentralDifferenceDerivative(TestFunction2, x, h);
             Assert.AreEqual(-Math.Sin(x) - 3 * Math.Pow(x, 2), result, 0.1);
         }
-
     }
 }
