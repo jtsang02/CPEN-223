@@ -1,5 +1,6 @@
 ﻿//Student name:     Josiah Tsang
 //Student number:   74191248
+// https://canvas.ubc.ca/courses/77990/pages/lab9-bonus-dec-2?module_item_id=3860687
 
 using System;
 using System.Collections.Generic;
@@ -8,29 +9,32 @@ namespace Lab9 {
     public class Program {
 
         static void Main () {
-            //You could mainly use unit tests for testing.       
+            //You could mainly use unit tests for testing.
+            for (int i = 1; i < 21; i++)
+            Console.WriteLine(Recursion.ToBinary(i));
         }
 
     }
     public class Recursion {
+
         /// <summary>
         /// Provides the reverse of stack through the second method parameter which is modified.
         /// </summary>
         /// <param name="stack">The stack whose reverse we want to obtain. It must not be modified when method returns.</param>
         /// <param name="reversed">A stack containing the reverse of stack. Originally, reversed is an empty stack.</param>
         public static void Reverse (Stack<int> stack, Stack<int> reversed) {
-            if (stack.Count == 0)
-                throw new ArgumentException("stack to be reversed cannot be empty");
 
             //base case
-            if (stack.Count == 1)
-                reversed.Push(stack.Peek());
+            if (stack == null || stack.Count <= 0)
+                return;
 
-            if (stack.Count > 1) {
-                Reverse(stack, reversed);
-            }
+            //recursive step
+            int temp = stack.Pop();
+            reversed.Push(temp);
+            Reverse(stack, reversed);
+            stack.Push(temp);
         }
-
+       
         /// <summary>
         /// Determines if sub is a subset of set.
         /// </summary>
@@ -38,6 +42,7 @@ namespace Lab9 {
         /// <param name="set">A list representing a set of integers. Duplicate elements are allowed.</param>
         /// <returns>True if sub is a subset of set, false otherwise.</returns>
         public static bool IsASubset (List<int> sub, List<int> set) {
+            
             return false;
         }
 
@@ -47,7 +52,14 @@ namespace Lab9 {
         /// <param name="num">The integer whose binary equivalent to find. num is greater than 0.</param>
         /// <returns>A string containing the binary equivalent of num.</returns>
         public static string ToBinary (int num) {
-            return string.Empty;
+
+            string str;
+            // base case
+            if (num == 0)
+                return string.Empty;
+
+            // recursive step
+            return ToBinary(num / 2) + (num % 2).ToString();
         }
     }
 }

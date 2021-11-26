@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9_Bonus\\Lab9_Bonus.csproj": {}
+    "D:\\Documents\\UBC\\CPEN 223\\Code\\Lab9_Bonus\\Lab9_Bonus\\Lab9_Bonus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9_Bonus\\Lab9_Bonus.csproj": {
+    "D:\\Documents\\UBC\\CPEN 223\\Code\\Lab9_Bonus\\Lab9_Bonus\\Lab9_Bonus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9_Bonus\\Lab9_Bonus.csproj",
+        "projectUniqueName": "D:\\Documents\\UBC\\CPEN 223\\Code\\Lab9_Bonus\\Lab9_Bonus\\Lab9_Bonus.csproj",
         "projectName": "Lab9_Bonus",
-        "projectPath": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9_Bonus\\Lab9_Bonus.csproj",
-        "packagesPath": "C:\\Users\\Josiah's MSi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Josiah's MSi\\OneDrive\\Documents\\Github\\CPEN-223\\Lab9_Bonus\\Lab9_Bonus\\obj\\",
+        "projectPath": "D:\\Documents\\UBC\\CPEN 223\\Code\\Lab9_Bonus\\Lab9_Bonus\\Lab9_Bonus.csproj",
+        "packagesPath": "C:\\Users\\jtsan\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\UBC\\CPEN 223\\Code\\Lab9_Bonus\\Lab9_Bonus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Josiah's MSi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jtsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -53,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
