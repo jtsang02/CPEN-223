@@ -2,7 +2,7 @@
 
 public class Program {
     static void Main () {
-
+       
         // test Swap function
         int x = 1;
         int y = 2;
@@ -15,8 +15,9 @@ public class Program {
             Console.WriteLine($"The entered number is {num}");
         else
             Console.WriteLine("not a valid integer.");
-
+        
     }
+
 
     /// <summary>
     /// Swaps the values of the two method parameters x and y.

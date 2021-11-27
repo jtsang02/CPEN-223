@@ -42,7 +42,17 @@ namespace Lab9 {
         /// <param name="set">A list representing a set of integers. Duplicate elements are allowed.</param>
         /// <returns>True if sub is a subset of set, false otherwise.</returns>
         public static bool IsASubset (List<int> sub, List<int> set) {
-            
+
+            //base case
+            if (sub.Count == 0)
+                return true;
+
+            //recursive step
+            if (set.Contains(sub[sub.Count - 1])) {
+                sub.Remove(sub[sub.Count - 1]);
+                if (IsASubset(sub, set))
+                    return true;
+            }
             return false;
         }
 
@@ -53,12 +63,11 @@ namespace Lab9 {
         /// <returns>A string containing the binary equivalent of num.</returns>
         public static string ToBinary (int num) {
 
-            string str;
-            // base case
+            //base case
             if (num == 0)
                 return string.Empty;
 
-            // recursive step
+            //recursive step
             return ToBinary(num / 2) + (num % 2).ToString();
         }
     }
