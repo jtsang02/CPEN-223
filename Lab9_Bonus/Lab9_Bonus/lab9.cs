@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 
 namespace Lab9 {
-    public class Program {
+    public class lab9 {
 
         static void Main () {
             //You could mainly use unit tests for testing.
