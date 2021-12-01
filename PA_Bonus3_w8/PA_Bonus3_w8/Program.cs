@@ -7,10 +7,14 @@ namespace PA13 {
 
         }
         static double Func (double x) {
+
             return Math.Cos(x) - x * x * x;
+
         }
         static double FPrime (double x) {
+
             return -Math.Sin(x) - 3 * x * x;
+
         }
     }
     public class RootFinding {
